@@ -2,7 +2,6 @@
 #include <cmath>
 #include <vector>
 
-
 using namespace std;
 
 /* 记录已放置皇后位置 */
@@ -11,7 +10,7 @@ int pos[8] = {0, 0, 0, 0, 0, 0, 0, 0};
 /* 储存当前一种结果 */
 vector<int> curResult;
 /* 最终的结果 */
-vector<vector<int> > result;
+vector<vector<int>> result;
 
 void searchQueen(int ithQueen)
 {
